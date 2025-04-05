@@ -25,7 +25,6 @@ pub fn Home() -> impl IntoView {
         }>
 
             <div class="container">
-
                 <picture>
                     <source
                         srcset="https://raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_pref_dark_RGB.svg"
