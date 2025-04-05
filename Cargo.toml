@@ -1,5 +1,5 @@
 [package]
-name = "learning-leptos"
+name = "learning_leptos"
 version = "0.1.0"
 edition = "2021"
 authors = ["Johannes Christel <johannes.christel@outlook.de>"]
@@ -7,9 +7,9 @@ authors = ["Johannes Christel <johannes.christel@outlook.de>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-leptos = { version = "0.7", features = ["csr", "nightly"] }
+leptos = { version = "0.7", features = ["csr"] }
 leptos_meta = { version = "0.7" }
-leptos_router = { version = "0.7", features = ["nightly"] }
+leptos_router = { version = "0.7"}
 console_log = "1"
 log = "0.4"
 console_error_panic_hook = "0.1"
